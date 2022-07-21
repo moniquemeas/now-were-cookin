@@ -1,21 +1,35 @@
+:root {
+    --colorBlack: #000;
+    --colorWhite: #fff;
+
+}
+
 body {
     background-color: rgb(46, 34, 34);
 }
-header{
-    color: white;
+
+header {
+    
+}
+
+main {
+    color: var(--colorWhite);
     text-align: center;
     padding: 50px;
 }
+
 .container{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
+
 .card img {
     width: 350px;
     height: 250px;
     
 }
+
 .card p {
     padding-left: 10px;
 }
