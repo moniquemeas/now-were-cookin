@@ -6,21 +6,8 @@
   padding: 10;
   box-sizing: border-box;
   /*border: 1px solid black;*/
-  font-family: Century Gothic;
+  font-family: sans-serif;
   font-size: medium;
-}
-
-a {
-  text-decoration: none;
-  background-color: white;
-  color: black;
-  border-radius: 25px;
-  padding-inline: 10px;
-  border: 1px solid rgb(255, 255, 255);
-}
-
-a:hover {
-  color: rgb(77, 77, 77);
 }
 
 /*-----*/
@@ -29,7 +16,7 @@ a:hover {
 
 body {
   background-color: #f7f7f7;
-  background-image: url(./16\ x\ 9\ in\ copy.png);
+  /*background-image: url(../images/16\ x\ 9\ in\ copy.png);*/
   background-size: cover;
   overflow: hidden;
   padding-left: 50px;
@@ -40,42 +27,8 @@ body {
 /*Main Outer Div*/
 /*-------------*/
 
-#headerimg {
-  display: flex;
-  justify-content: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
-#cuisine {
-  display: flex;
-  justify-content: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
 p {
   color: black;
-}
-
-button {
-  outline: none;
-  background-color: white;
-  border-radius: 25px;
-  padding-inline: 10px;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 10px;
-  margin: 20px 0;
-  border-color: rgb(255, 255, 255);
-}
-
-button:hover {
-  border-color: grey;
 }
 
 /*-------------*/
@@ -95,12 +48,11 @@ button:hover {
 /*---------*/
 
 .inner-container {
-  /*background-color: white;*/
-  height: 40%;
+  background-color: white;
+  height: 50%;
   margin: 0 auto;
-  width: 50%;
+  width: 100%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   /*box-shadow: 0 0 10px 2px white;*/
   padding: 10px;
@@ -125,21 +77,31 @@ p {
   text-align: center;
 }
 
-.front-page,
-main {
-  margin-bottom: 10vh;
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color: transparent;
-}
 
 .front-page button {
-  outline: none;
-  border-color: rgb(255, 255, 255);
-  background-color: white;
-  padding-inline: 10px;
-  display: block;
-  margin: 0 auto;
+  height: 50px;
+  width: 100px;
+  background: #e7e7e7;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 2px;
+}
+
+
+.inputsection {
+  text-align: center;
+  margin: 100px;
+  height: 50px;
+  width: 600px;
+  background: #e7e7e7;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 10px;
 }
 
 .hide {
@@ -148,13 +110,48 @@ main {
 
 .container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 10px;
 }
+
 .card img {
   width: 350px;
   height: 250px;
 }
+
 .card p {
   padding-left: 10px;
 }
+main {
+  display: flex;
+  align-items: stretch;
+  margin: 20px;
+}
+.formContainer{
+  display: flex;
+  
+  align-content: center;
+  flex-direction: column;
+}
+.formHeader {
+  align-items: center;
+  margin-left: 45%;
+}
+
+.searchForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.foodContainer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+.recipeCard{
+  margin: 5px;
+  width: 250px;
+}
+

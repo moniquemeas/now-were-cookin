@@ -1,83 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, intial-scale=1">
-    <link href="./assests/css/stylesheet.css" rel="stylesheet">
-    <!-- Favicon attachment -->
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon.ico">
-    
-    <!--Title-->
-    <title>Orlando Eats</title>
-  
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Old Town Eat</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 
-  
-  <body>
-      <!--Main outer div-->
-      <div class="outer-container">
-        <!--Top bar section-->
-        <div class="top-bar">
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-        <!--<a href="./ourfavorites.html">View Our Favorites!</a>-->
+  <!-- Favicon attachment -->
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon.ico">
+</head>
 
-
-        </div> <!--End Top Bar section-->
-      <!--Inner div-->
-      <div class="inner-container">
-
-        <!----------->
-        <!--FIRST PAGE-->
-        <!----------->
-    
-    <!--Main Page-->
-    <header class="front-page">
-
-      <img id="headerimg" src="./assests/header.png">
-
-      <br>
-      <img id="headerimg" src="./assests/text.png">
-      <br>
-      <br>
-    
-      <select name="cuisine" id="cuisine">
-        <option value=""></option>
-        <option value="Indian">Indian</option>
-        <option value="Chinese">Chinese</option>
-        <option value="Italian">Italian</option>
-        <option value="French">French</option>
-        <option value="Japanese">Japanese</option>
-        <option value="Thai">Thai</option>
-        <option value="American">American</option>
-        <option value="Indian">Indian</option>
-        <option value="Mexican">Mexican</option>
-      </select>
-
-      <br>
-
-        <button id="letseat">Let's eat!</button>
-
-        <button id="surpriseme">Surprise me!</button>
-
-    
+<body>
+    <header>
+        <h1>O'Town Eats</h1>
+    </header>
+    <main>
+        <section class="pageList">
+            <form>
+                <h3>Find grocery store</h3>
+                <input id="inputCode" placeholder="Enter a zip code" />
+                <button>Find</button>
+            </form>
+            
+        </section>
+        <section class="formContainer">
+        <div class="formHeader">
+            <form class="searchForm">
+            <input id="dishInput" placeholder="Enter a ingredient or a dish">
+            <button id="searchBtn" type="submit">Search</button>
+            </form>
+        </div>
+        
+        <div id="recipeContainer" class="foodContainer">
+            
+        </div>
+        </section>
+    </main>
 
 
 
-      </div> <!--End Inner Div-->
-    </div> <!--End Main outer div-->
-  
-  </header>
 
-      <!--Link to JS-->
-      <script src="./assests/js.js"></script>
-       
-  </body>
-  <footer>
-    <h2>Welcome to Orlands Eats. Presented by the Mighty Turtules LLC.</h2>
-      <div>
-        <a href="./PrivacyPolicy.html">Read Our Privacy</a><br />
-        &copy; 2022 TMNJ Mighty Turtules Group
-    
+    <script src="./assets/js/script.js"></script>
+</body>
+    <!-- footer -->
+    <footer>
+      <h2>Welcome to Orlands Eats. Presented by the Mighty Turtules LLC.</h2>
+        <div>
+          <a href="./index.html">Orland Eats Home Page</a><br />
+          &copy; 2022 TMNJ Mighty Turtules Group
+        </div>
   </footer>
-
-
-  </html>
+</html>
