@@ -122,3 +122,36 @@ p {
 .card p {
   padding-left: 10px;
 }
+main {
+  display: flex;
+  align-items: stretch;
+  margin: 20px;
+}
+.formContainer{
+  display: flex;
+  
+  align-content: center;
+  flex-direction: column;
+}
+.formHeader {
+  align-items: center;
+  margin-left: 45%;
+}
+
+.searchForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+.foodContainer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+.recipeCard{
+  margin: 5px;
+  width: 250px;
+}
+
