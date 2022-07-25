@@ -1,66 +1,31 @@
-/*------------------*/
-/*Global Decorations*/
-/*-----------------*/
+/* GLOBAL */
+
 * {
-  margin: 10;
-  padding: 10;
-  box-sizing: border-box;
-  /*border: 1px solid black;*/
+  margin: 0;
+  padding: 0;
   font-family: sans-serif;
   font-size: medium;
 }
 
-/*-----*/
-/*Body*/
-/*-----*/
+/* HEADER */
+
+.headersection {
+  height: 135px;
+  background-color: #4b4b4b;
+}
+
+#headerimg {
+  width: 45%;
+}
+
+/* BODY */
 
 body {
-  background-color: #f7f7f7;
-  /*background-image: url(../images/16\ x\ 9\ in\ copy.png);*/
+  background-position: center;
   background-size: cover;
-  overflow: hidden;
-  padding-left: 50px;
-  padding-right: 50px;
+  height: 100vh;
+  background-color: #e7e7e7;
 }
-
-/*-------------*/
-/*Main Outer Div*/
-/*-------------*/
-
-p {
-  color: black;
-}
-
-/*-------------*/
-/*Outer container*/
-/*-------------*/
-
-.outer-container {
-  padding: 10px;
-  height: 135vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-}
-
-/*---------*/
-/*Inner Div*/
-/*---------*/
-
-.inner-container {
-  background-color: white;
-  height: 50%;
-  margin: 0 auto;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  /*box-shadow: 0 0 10px 2px white;*/
-  padding: 10px;
-}
-
-/*-------------------------*/
-/*Header/Intro Section*/
-/*------------------------*/
 
 h1,
 h2 {
@@ -73,36 +38,6 @@ li {
   list-style: none;
 }
 
-p {
-  text-align: center;
-}
-
-
-.front-page button {
-  height: 50px;
-  width: 100px;
-  background: #e7e7e7;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  border: none;
-  border-radius: 2px;
-}
-
-
-.inputsection {
-  text-align: center;
-  margin: 100px;
-  height: 50px;
-  width: 600px;
-  background: #e7e7e7;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 20px;
-  border: none;
-  border-radius: 2px;
-  padding: 10px 10px;
-}
 
 .hide {
   display: none;
@@ -121,4 +56,89 @@ p {
 
 .card p {
   padding-left: 10px;
+}
+main {
+  display: flex;
+  align-items: stretch;
+  margin: 20px;
+}
+.formContainer{
+  display: flex;
+  
+  align-content: center;
+  flex-direction: column;
+}
+.formHeader {
+  align-items: center;
+  margin-left: 45%;
+}
+
+.searchForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+
+.foodContainer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.recipeCard{
+  margin: 5px;
+  width: 275px;
+}
+
+/* SEARCH BUTTON */
+
+#searchBtn {
+background-color: #3d3d3d;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+
+#searchBtn:hover, #searchBtn:focus {
+  background-color: #858585;
+  }
+
+/* FIND BUTTON */
+
+#findBtn {
+  background-color: #3d3d3d;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+
+#findBtn:hover, #findBtn:focus {
+  background-color: #858585;
+  }
+
+
+/* INPUT SECTION */
+
+#inputCode {
+max-width: 20rem;
+margin: 0 auto;
+padding: 1.5rem;
+border-radius: 0.5rem;
+background-color: #fff;
+box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+#dishInput {
+  max-width: 20rem;
+margin: 0 auto;
+padding: 1.5rem;
+border-radius: 0.5rem;
+background-color: #fff;
+box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
