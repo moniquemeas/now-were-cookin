@@ -21,19 +21,30 @@ displayRecipe = function(data){
     
     var recipeList = data.map(data => {
        
-        return `<div class="recipeCard"> 
-        <img src = ${data.recipe.image} />
-        <p>Name: ${data.recipe.label}</p>
-        <p>Type of cuisine: ${data.recipe.cuisineType}</p>
-        <p>Calories: ${data.recipe.calories.toFixed(0)}</p>
-        <a href = ${data.recipe.url} alt="" target ="_blank">Let's cook!<a>
-    </div>`
+        return `
+        <div class="card-panel hoverable light-blue lighten-5 recipeCard">
+        <h6 class="center-align black-text"> ${data.recipe.label}</h6> 
+
+        <div class="card-image">
+        <img class="materialboxed circle responsive-img" width="650" src = ${data.recipe.image} >
+        </div>
+
+        <div class="card-content center-align">
+        <span class="black-text">Type of Cuisine: ${data.recipe.cuisineType}</span>
+        <span class="black-text">Calories: ${data.recipe.calories.toFixed(0)}</span>
+        <p><a class="red-text" href = ${data.recipe.url} alt="" target ="_blank">Let's cook!<a></p>
+        </div>
+      </div>`;
 
     }).join("");
-    
+
+    $(document).ready(function(){
+        $('.materialboxed').materialbox();
+      });
     
     
     document.querySelector("#recipeContainer").innerHTML = recipeList
     
+            
 }
 searchDish.addEventListener("click", submitHandler);
