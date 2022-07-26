@@ -27,28 +27,37 @@
     <header class="headersection light-blue lighten-5">
         <a href=""> <img src="./assets/images/Billboard Ad.png" id="headerimg"> </a>
     </header>
-    <main>
+    <main class="row">
 
-
-        <section class="formContainer">
+        <section class="col s3 left">
+        <div class="formContainer">
             <div class="formHeader">
                 <form class="searchForm">
                     <h5 class="center-align">Enter Ingredient or Dish</h5>
 
-                    <input placeholder="Pizza" type="text" class="validate" id="dishInput">
+                    <input placeholder="Pizza" type="text" id="dishInput">
                     <button class="waves-effect waves-light" id="searchBtn" type="submit">Search</button>
                 </form>
             </div>
-
+        </div>
+            <div class="hide">
+                <h5 class="center-align">Find a Store Near You</h5>
+            <input placeholder="location" id="locationInput"></input>
+            <div  id="map"></div>
+        </div>
+        
+    </section>
             <div class="cols9">
             <div id="recipeContainer" class="foodContainer"></div>
         </div>
     
-        </section>
-        
+    
+    
     </main>
 
     <script src="./assets/js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8qL17TE58D1xFLBP9vzXo9E00_X2gTak&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8qL17TE58D1xFLBP9vzXo9E00_X2gTak&libraries=places"></script>
 </body>
 <br>
 <br>
