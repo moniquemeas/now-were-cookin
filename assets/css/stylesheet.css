@@ -11,7 +11,7 @@
 
 .headersection {
   height: 135px;
-  background-color: #4b4b4b;
+  background-color: lightblue;
 }
 
 #headerimg {
@@ -24,6 +24,8 @@ body {
   background-position: center;
   background-size: cover;
   height: 100vh;
+  background-color: white;
+  background-image: url(https://food.unl.edu/newsletters/images/mise-en-plase.jpg);
   background-color: #e7e7e7;
 }
 
@@ -37,7 +39,6 @@ h2 {
 li {
   list-style: none;
 }
-
 
 .hide {
   display: none;
@@ -62,23 +63,22 @@ main {
   align-items: stretch;
   margin: 20px;
 }
-.formContainer{
+.formContainer {
   display: flex;
-  
-  align-content: center;
-  flex-direction: column;
-}
-.formHeader {
-  align-items: center;
-  margin-left: 45%;
 }
 
-.searchForm{
+.formHeader {
+  align-items: center;
+}
+
+.searchForm {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 25%;
+  width: 100%;
+  justify-content: center;
 }
+
 
 .foodContainer{
   display: flex;
@@ -86,10 +86,35 @@ main {
   flex-wrap: wrap;
 }
 
-
 .recipeCard{
   margin: 5px;
   width: 275px;
+}
+
+
+.section {
+  padding: 60px;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+/* SEARCH BUTTON */
+
+#searchBtn {
+  background-color: #3d3d3d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#searchBtn:hover,
+#searchBtn:focus {
+  background-color: #858585;
 }
 
 /* SEARCH BUTTON */
@@ -107,38 +132,69 @@ cursor: pointer;
   background-color: #858585;
   }
 
+
 /* FIND BUTTON */
 
 #findBtn {
   background-color: #3d3d3d;
-color: white;
-padding: 16px;
-font-size: 16px;
-border: none;
-cursor: pointer;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+  border: #3d3d3d;
+  cursor: pointer;
 }
 
-#findBtn:hover, #findBtn:focus {
-  background-color: #858585;
-  }
-
+#findBtn:hover,
+#findBtn:focus {
+  background-color: lightyellow;
+}
 
 /* INPUT SECTION */
 
 #inputCode {
-max-width: 20rem;
-margin: 0 auto;
-padding: 1.5rem;
-border-radius: 0.5rem;
-background-color: #fff;
-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  max-width: 20rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+  background-color: #fff;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
 #dishInput {
-  max-width: 20rem;
-margin: 0 auto;
-padding: 1.5rem;
-border-radius: 0.5rem;
-background-color: #fff;
-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  width: 20rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px;
+  background-color: #fff;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
+
+/* Footer */
+
+footer {
+  background: lightblue;
+  width: 100%;
+  padding: 40px 35px;
+}
+
+footer h2 {
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+}
+
+footer div {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  line-height: 1.5;
+  text-align: right;
+}
+
+
+
