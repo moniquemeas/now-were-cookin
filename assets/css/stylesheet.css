@@ -23,10 +23,13 @@
 body {
   background-position: center;
   background-size: cover;
-  height: 50vh;
+  height: 20vh;
   background-color: white;
   background-image: url(../images/16\ x\ 9\ in\ copy\ \(2\).png);
   background-color: #e7e7e7;
+  background-attachment: fixed;
+  background-position: 75%;
+  
 }
 
 h1,
