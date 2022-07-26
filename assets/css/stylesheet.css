@@ -91,6 +91,9 @@ main {
   margin: 5px;
   width: 275px;
 }
+.recipeCard img{
+  width: 275px;
+}
 
 /* SEARCH BUTTON */
 
@@ -141,4 +144,7 @@ padding: 1.5rem;
 border-radius: 0.5rem;
 background-color: #fff;
 box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+footer {
+  position: fixed;
 }
