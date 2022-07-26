@@ -11,7 +11,7 @@
 
 .headersection {
   height: 135px;
-  background-color: lightblue;
+  
 }
 
 #headerimg {
@@ -21,19 +21,30 @@
 /* BODY */
 
 body {
-  background-position: center;
+  background-position: 5% 200% ;
   background-size: cover;
-  height: 50vh;
   background-color: white;
   background-image: url(../images/16\ x\ 9\ in\ copy\ \(2\).png);
   background-color: #e7e7e7;
+  background-attachment: fixed;
+ 
+  
 }
 
 h1,
 h2 {
   font-weight: bold;
-  font-size: large;
+  font-size: 26px;
   text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: .25px;
+}
+
+h5 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  letter-spacing: .65px;
+  font-weight: bold;
 }
 
 .hide {
@@ -60,7 +71,6 @@ main {
   align-items: stretch;
   margin: 20px;
 }
-
 .formContainer {
   display: flex;
 }
@@ -89,6 +99,27 @@ main {
   width: 275px;
 }
 
+h6 {
+  font-size: 28px;
+  text-decoration: solid;
+  font-family: 'Bangers', cursive;
+}
+
+span {
+  font-family: 'Rubik', sans-serif;
+}
+
+a {
+  font-family: 'Bangers', cursive;
+  font-size: 20px;
+}
+
+.section {
+  padding: 60px;
+  min-height: 100%;
+  min-width: 100%;
+}
+
 /* SEARCH BUTTON */
 
 #searchBtn {
@@ -96,7 +127,7 @@ main {
   color: white;
   padding: 16px;
   font-size: 16px;
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 0 0 10px 2px;
   cursor: pointer;
   margin-top: 10px;
@@ -105,7 +136,7 @@ main {
 
 #searchBtn:hover,
 #searchBtn:focus {
-  background-color: #858585;
+  background-color: #919191;
 }
 
 /* INPUT SECTION */
@@ -114,7 +145,7 @@ main {
   width: 20rem;
   margin: 0 auto;
   padding: 1.5rem;
-  border-radius: 5px;
+  border-radius: 15px;
   box-shadow: 0 0 10px 2px;
   background-color: #fff;
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
@@ -124,11 +155,10 @@ main {
 /* Footer */
 
 footer {
-  position: fixed;
+ position: fixed;
  left: 0;
  bottom: 0;
  width: 100%;
- background-color: lightblue;
-  color: white;
+  color: darksalmon;
   text-align: center;
 }
