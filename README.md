@@ -28,6 +28,8 @@ From there, you will be sent to the results page where you are able to choose fr
 
 On the results page, you may also search for a grocery store nearby using the name of a grocery store.
 
+Ensure you allow your location to be shared in order to see the Google Maps!
+
 (screenshots of usage goes here)
  
 ## Credits
