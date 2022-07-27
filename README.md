@@ -1,4 +1,4 @@
-# <Now We’re Cookin>
+# Now We’re Cookin
 
 
 ## Description
@@ -16,10 +16,9 @@ This project was created with Javascript, Materialize, jQuery, HTML and CSS.
 Together as a team we learned how to collaborate on design and functionality. We learned how to properly commit our code in an organized matter so we were always up to date, without conflicts.
 
 
-## Installation
+## Link to website
 
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+[Click here](https://kristafrancis.github.io/now-were-cookin/)
 
 
 ## Usage
