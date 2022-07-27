@@ -11,7 +11,7 @@
 
 .headersection {
   height: 135px;
-  background-color: #4b4b4b;
+  
 }
 
 #headerimg {
@@ -21,23 +21,31 @@
 /* BODY */
 
 body {
-  background-position: center;
+  background-position: 5% 200% ;
   background-size: cover;
-  height: 100vh;
+  background-color: white;
+  background-image: url(../images/16\ x\ 9\ in\ copy\ \(2\).png);
   background-color: #e7e7e7;
+  background-attachment: fixed;
+ 
+  
 }
 
 h1,
 h2 {
   font-weight: bold;
-  font-size: large;
+  font-size: 26px;
   text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: .25px;
 }
 
-li {
-  list-style: none;
+h5 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  letter-spacing: .65px;
+  font-weight: bold;
 }
-
 
 .hide {
   display: none;
@@ -57,35 +65,34 @@ li {
 .card p {
   padding-left: 10px;
 }
+
 main {
   display: flex;
   align-items: stretch;
   margin: 20px;
 }
-.formContainer{
+.formContainer {
   display: flex;
-  
-  align-content: center;
-  flex-direction: column;
-}
-.formHeader {
-  align-items: center;
-  margin-left: 45%;
 }
 
-.searchForm{
+.formHeader {
+  align-items: center;
+}
+
+.searchForm {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 25%;
+  width: 100%;
+  justify-content: center;
 }
+
 
 .foodContainer{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 
 .recipeCard{
   margin: 5px;
@@ -95,56 +102,84 @@ main {
   width: 275px;
 }
 
+h6 {
+  font-size: 28px;
+  text-decoration: solid;
+  font-family: 'Bangers', cursive;
+}
+
+span {
+  font-family: 'Rubik', sans-serif;
+}
+
+a {
+  font-family: 'Bangers', cursive;
+  font-size: 20px;
+}
+
+.section {
+  padding: 60px;
+  min-height: 100%;
+  min-width: 100%;
+}
+
 /* SEARCH BUTTON */
 
 #searchBtn {
-background-color: #3d3d3d;
-color: white;
-padding: 16px;
-font-size: 16px;
-border: none;
-cursor: pointer;
-}
-
-#searchBtn:hover, #searchBtn:focus {
-  background-color: #858585;
-  }
-
-/* FIND BUTTON */
-
-#findBtn {
   background-color: #3d3d3d;
-color: white;
-padding: 16px;
-font-size: 16px;
-border: none;
-cursor: pointer;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 2px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-#findBtn:hover, #findBtn:focus {
-  background-color: #858585;
-  }
-
+#searchBtn:hover,
+#searchBtn:focus {
+  background-color: #919191;
+}
 
 /* INPUT SECTION */
 
-#inputCode {
-max-width: 20rem;
-margin: 0 auto;
-padding: 1.5rem;
-border-radius: 0.5rem;
-background-color: #fff;
-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+#dishInput {
+  width: 20rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 2px;
+  background-color: #fff;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
-#dishInput {
-  max-width: 20rem;
-margin: 0 auto;
-padding: 1.5rem;
-border-radius: 0.5rem;
-background-color: #fff;
-box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+#locationInput{
+  width: 20rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 2px;
+  background-color: #fff;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    padding: 20px;
 }
+
+/* Footer */
+
 footer {
-  position: fixed;
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+  color: darksalmon;
+  text-align: center;
+}
+
+#map{
+	width: 350px;
+	max-width: 100%;
+	height: 450px;
 }
