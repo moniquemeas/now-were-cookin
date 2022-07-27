@@ -98,6 +98,9 @@ main {
   margin: 5px;
   width: 275px;
 }
+.recipeCard img{
+  width: 275px;
+}
 
 h6 {
   font-size: 28px;
