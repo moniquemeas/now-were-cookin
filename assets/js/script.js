@@ -36,7 +36,7 @@ displayRecipe = function(data){
         </div>
 
         <div class="card-content center-align">
-        <span class="black-text">Type of Cuisine: ${data.recipe.cuisineType}</span>
+        <span class="truncate black-text">Type of Cuisine: ${data.recipe.cuisineType}</span>
         <span class="black-text">Calories: ${data.recipe.calories.toFixed(0)}</span>
         <p><a class="red-text" href = ${data.recipe.url} alt="" target ="_blank">Let's cook!<a></p>
         </div>
@@ -75,7 +75,7 @@ function initMap(){
 		//option to display map
 		var mapOptions ={
 			center: coords,
-			zoom:10,
+			zoom:15,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		}
 
