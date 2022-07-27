@@ -7,6 +7,10 @@
   font-size: medium;
 }
 
+main {
+  flex: 1 0 auto;
+}
+
 /* HEADER */
 
 .headersection {
@@ -27,6 +31,9 @@ body {
   background-image: url(../images/16\ x\ 9\ in\ copy\ \(2\).png);
   background-color: #e7e7e7;
   background-attachment: fixed;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
  
   
 }
