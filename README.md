@@ -30,7 +30,10 @@ On the results page, you may also search for a grocery store nearby using the na
 
 Ensure you allow your location to be shared in order to see the Google Maps!
 
-(screenshots of usage goes here)
+![kristafrancis github io_now-were-cookin_](https://user-images.githubusercontent.com/107075274/181138849-600a1f30-236a-49d5-bb01-846cbba75c38.png)
+![kristafrancis github io_now-were-cookin_ (1) (1)](https://user-images.githubusercontent.com/107075274/181138876-83157bd9-abcb-4eed-963b-714c8c92ae2d.png)
+![kristafrancis github io_now-were-cookin_ (2) (1)](https://user-images.githubusercontent.com/107075274/181138884-312a41e9-c84c-4d70-bdb9-0ff11be46c3e.png)
+
  
 ## Credits
 
